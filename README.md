@@ -1,14 +1,27 @@
-# Coding Interview University Redux - For students
+# Coding Interview University - For students
 
 [Original resource](https://github.com/jwasham/coding-interview-university)
 
-## What is it?
+## Why for students?
 
-xxx
+The original study plan is great and will thoroughly prepare you for a technical coding interview.
+
+However I found this plan too comprehensive and even impenetrable for students or new grads, preparing for internships or junior positions. This is my attempt to create a leaner version of this plan specifically for them.
+
+Although this plan doesn't necessarily replace the original, I believe it contains all the material necessary for an entry level developer position. If you are a student or new grad and want to prepare, I would recommend you master all the topics in here. After you feel confident with all these concepts, feel free to study new topics from the original list.
+
+The main differences of this version are that I removed the following:
+
+* Most of jwasham personal experience. You can check the original plan.
+* All of system design. This is not asked for entry level positions.
+* Most advanced topics.
+* Most additional resources.
+* Some explanations have been greatly abbreviated. Links are included to the original.
+
+Lastly, I have included some personal comments. These are marked with a sun emoji ☀️.
 
 ## Table of Contents
 
-- [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
@@ -16,9 +29,7 @@ xxx
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
 - [The Daily Plan](#the-daily-plan)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -71,10 +82,6 @@ xxx
 
 ---
 
-## Why Redux?
-
-xx
-
 ## How to use it
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
@@ -109,22 +116,16 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [ ] Prep Course:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
     - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
         - A free Python centric data structures and algorithms course.
-    - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
     - [ ] [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
 
 ## Pick One Language for the Interview
 
-TL;DR Choose one language and become very comfortable with it.
+☀️ TL;DR Choose one language and become very comfortable with it.
 
-xxx
+[Full version](https://github.com/jwasham/coding-interview-university#pick-one-language-for-the-interview)
 
 ## Book List
 
@@ -170,60 +171,15 @@ OR:
 
 Here are some mistakes I made so you'll have a better experience.
 
-### 1. You Won't Remember it All
+TL;DR
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review.
+[Full version](https://github.com/jwasham/coding-interview-university#before-you-get-started)
 
-Please, read so you won't make my mistakes:
-
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
-
-A course recommended to me (haven't taken it): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn).
-
-### 2. Use Flashcards
-
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
-
-I made a mobile-first website, so I could review on my phone and tablet, wherever I am.
-
-Make your own for free:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
-
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
-
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
-
-### 3. Start doing coding interview questions while you're learning data structures and algorithms
-
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. Once you've learned a topic,
-and feel comfortable with it, like linked lists, open one of the coding interview books and do a couple of questions regarding
-linked lists. Then move on to the next learning topic. Then later, go back and do another linked list problem,
-or recursion problem, or whatever. But keep doing problems while you're learning. You're not being hired for knowledge,
-but how you apply the knowledge. There are several books and sites I recommend.
-See here for more: [Coding Question Practice](#coding-question-practice).
-
-### 4. Review, review, review
-
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
-
-Take a break from programming problems for a half hour and go through your flashcards.
-
-### 5. Focus
-
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+1. You Won't Remember it All
+2. Use Flashcards
+3. Start doing coding interview questions while you're learning data structures and algorithms
+4. Review, review, review
+5. Focus
 
 ## The Daily Plan
 
@@ -235,16 +191,13 @@ Each day I:
 - write an implementation
 - and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
 
-Why code in all of these?
 - Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
 - Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
 - Make use of built-in types, so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
 
 You don't need to memorize the guts of every algorithm.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
-
-NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Even if you arrange an on-site interview, ask to write code in a computer, either your own or one provided by the company.
+☀️ With COVID and remote interviewing, whiteboarding is less relevant now. Even if you arrange an on-site interview, ask to write code in a computer, either your own or one provided by the company.
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
@@ -269,7 +222,6 @@ NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Ev
 ## Data Structures
 
 - ### Arrays
-    - Implement an automatically resizing vector.
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
@@ -307,7 +259,7 @@ NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Ev
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation
+        - not the whole video, just portions about Node struct and memory allocation
     - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
@@ -366,7 +318,6 @@ NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Ev
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-
     - [ ] Online Courses:
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
@@ -374,7 +325,6 @@ NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Ev
         - [ ] distributed hash tables:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
-
     - [ ] Implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
@@ -540,12 +490,9 @@ Graphs can be used to represent many problems in computer science, so this secti
         - adjacency map
     - Familiarize yourself with each representation and its pros & cons
     - BFS and DFS - know their computational complexity, their trade offs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none
-
 - [ ] MIT(videos):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-
 - [ ] Skiena Lectures - great intro:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
@@ -553,9 +500,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-
 - [ ] Graphs (review and more):
-
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
@@ -568,10 +513,8 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
-
 - Full Coursera Course:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
-
 - I'll implement:
     - [ ] DFS with adjacency list (recursive)
     - [ ] DFS with adjacency list (iterative with stack)
@@ -600,31 +543,11 @@ Graphs can be used to represent many problems in computer science, so this secti
     - How is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
-
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] SOLID OOP Principles: [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-
 - ### Design patterns
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
-        - [ ] strategy
-        - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
-        - [ ] visitor
-        - [ ] factory, abstract factory
-        - [ ] facade
-        - [ ] observer
-        - [ ] proxy
-        - [ ] delegate
-        - [ ] command
-        - [ ] state
-        - [ ] memento
-        - [ ] iterator
-        - [ ] composite
-        - [ ] flyweight
     - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
     - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
@@ -633,8 +556,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
     - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
-
-
 - ### Combinatorics (n choose k) & Probability
     - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
@@ -644,7 +565,6 @@ Graphs can be used to represent many problems in computer science, so this secti
             - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
         - Just the videos - 41 (each are simple and each are short):
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
-
 - ### Caches
     - [ ] LRU cache:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
@@ -653,7 +573,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] CPU cache:
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
-
 - ### Testing
     - To cover:
         - how unit testing works
@@ -668,7 +587,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
-
 - ### String searching & manipulations
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
@@ -678,14 +596,13 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
         - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
 
 ---
 
 ## Final Review
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
+This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
@@ -771,7 +688,6 @@ Mock Interviews:
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously.
 
-
 ## Once you're closer to the interview
 
 - Cracking The Coding Interview Set 2 (videos):
@@ -784,7 +700,7 @@ xxx
 
 ## Have questions for the interviewer
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+Some of mine (I already may know answer to but want their opinion or team perspective):
 
 - How large is your team?
 - What does your dev cycle look like? Do you do waterfall/sprints/agile?
