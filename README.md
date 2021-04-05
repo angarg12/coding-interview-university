@@ -320,9 +320,6 @@ NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Ev
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 ## Data Structures
@@ -446,7 +443,6 @@ NOTE: With COVID and remote interviewing, whiteboarding is less relevant now. Ev
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
     - [ ] Implement:
         - binary search (on sorted array of integers)
         - binary search using recursion
@@ -794,9 +790,6 @@ See [Book List above](#book-list)
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
-
-- [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
 Coding Interview Question Videos:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
